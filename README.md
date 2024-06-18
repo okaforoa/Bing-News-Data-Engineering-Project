@@ -1,21 +1,18 @@
 
 # Bing News Data Engineering Project
 
-This project demonstrates an end-to-end data engineering workflow using Microsoft Fabric and Microsoft Azure to analyze Bing News data. The workflow includes data ingestion, transformation, sentiment analysis, and visualization. The primary tools used are Azure Data Factory, Synapse Data Engineering, Synapse Data Science, One Lake, Power BI, and Microsoft Teams for collaboration.
+This project demonstrates an end-to-end data engineering workflow using Microsoft Fabric and Microsoft Azure to analyze Bing News data. The workflow includes data ingestion, transformation, sentiment analysis, and visualization. The primary tools used are Azure Data Factory, Synapse Data Engineering, Synapse Data Science, One Lake, and Power BI.
 
 ## Project Overview
 
-### Architecture Diagram
-![Architecture Diagram](path_to_your_architecture_diagram_image)
-
-### Agenda
-![Agenda](path_to_your_agenda_image)
+### Microsoft Fabric
+![Architecture Diagram](https://github.com/okaforoa/Bing-News-Data-Engineering-Project/blob/main/images/Microsoft%20Fabric.png)
 
 ### Pipeline Workflow
-![Pipeline Workflow](path_to_your_pipeline_workflow_image)
+![Pipeline Workflow](https://github.com/okaforoa/Bing-News-Data-Engineering-Project/blob/main/images/news_ingestion_pipeline.png)
 
 ### Dashboard Overview
-![Dashboard Overview](path_to_your_dashboard_overview_image)
+![Dashboard Overview](https://github.com/okaforoa/Bing-News-Data-Engineering-Project/blob/main/images/news_dashboard_page_1.png)
 
 ## Components
 
@@ -26,7 +23,6 @@ This project demonstrates an end-to-end data engineering workflow using Microsof
 5. **Synapse Data Science**: Sentiment analysis on the ingested data.
 6. **Data Activator**: (Not implemented) For setting up alerts and notifications.
 7. **Power BI**: Data visualization and reporting.
-8. **Microsoft Teams**: Collaboration and communication tool.
 
 ## Steps to Reproduce
 
@@ -38,7 +34,6 @@ This project demonstrates an end-to-end data engineering workflow using Microsof
    - Azure Synapse Analytics
    - One Lake
    - Power BI
-   - Microsoft Teams
 
 ### Data Ingestion
 1. **Create Data Factory Pipeline**:
@@ -70,8 +65,8 @@ The dashboard provides a quick summary of the sentiment analysis, including:
 - Detailed table of news articles with their sentiment scores.
 
 ### Example Visuals
-![Quick Summary](path_to_your_quick_summary_image)
-![Detailed Table](path_to_your_detailed_table_image)
+![Quick Summary](https://github.com/okaforoa/Bing-News-Data-Engineering-Project/blob/main/images/news_dashboard_page_1.png)
+![Detailed Table](https://github.com/okaforoa/Bing-News-Data-Engineering-Project/blob/main/images/news_dashboard_page_2.png)
 
 ## Future Work
 - **Setting Up Alerts**: Implement alerts using Data Activator for real-time notifications.
