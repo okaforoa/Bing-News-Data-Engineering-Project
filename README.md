@@ -41,19 +41,19 @@ This project demonstrates an end-to-end data engineering workflow using Microsof
    - Store the ingested data as JSON files in One Lake.
 
 ### Data Transformation
-1. **Synapse Data Engineering**:
+2. **Synapse Data Engineering**:
    - Transform the ingested JSON data using Synapse Data Engineering.
 
 ### Sentiment Analysis
-1. **Synapse Data Science**:
+3. **Synapse Data Science**:
    - Perform sentiment analysis on the transformed data.
 
 ### Data Visualization
-1. **Power BI**:
+4. **Power BI**:
    - Create a Power BI dashboard to visualize the sentiment analysis results.
 
 ### End-to-End Testing
-1. **Pipeline Execution**:
+5. **Pipeline Execution**:
    - Execute the entire pipeline to ensure data flows seamlessly from ingestion to visualization.
    - Validate the results in Power BI.
 
